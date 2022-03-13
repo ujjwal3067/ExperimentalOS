@@ -4,13 +4,15 @@ version = "0.1.0"
 edition = "2018"
 
 
-# profile used for `cargo build` 
+# # profile used for `cargo build` 
 [profile.dev]
 panic="abort" # disable stack unwinding on panic
 
-# profile used for `cargo build --realse` 
+# # profile used for `cargo build --realse` 
 [profile.release]
 panic="abort" #disable stack unwinding on panic 
 
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
+bootloader= "0.9.8"
