@@ -1,1 +1,2 @@
-# work in progress ( tutorial : https://os.phil-opp.com/ )
+-  work in progress ( tutorial : https://os.phil-opp.com/ )
+-  goal : use this base to implement some scheduling algorithms + other experimentation 
